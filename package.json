@@ -1,0 +1,36 @@
+{
+  "name": "goit-nodejs-hw-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Di-ua/goit-nodejs-hw-01.git"
+  },
+  "author": "Diana Kuzmina <di.ua@mail.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Di-ua/goit-nodejs-hw-01/issues"
+  },
+  "homepage": "https://github.com/Di-ua/goit-nodejs-hw-01#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "eslint": "^7.27.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "commander": "7.2.0",
+    "repo": "0.0.15",
+    "uuid": "^8.3.2",
+    "yargs": "^17.0.1"
+  }
+}
